@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Libraries & Tools:
 - [React JS](https://it.reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Heroicons](https://heroicons.com/)
 
 
 ## Available Scripts
