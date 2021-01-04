@@ -9,7 +9,7 @@ const Navbar = (props) => {
             <div className='flex items-center'>
 
                 <div className='flex items-center'>
-                    <img className='h-10 w-10' src={headspaceLogo} alt="logo"/>
+                    <a href="/"> <img className='h-10 w-10' src={headspaceLogo} alt="logo"/> </a>
                     <Link to='/' className='pl-1 text-2xl mb-1'> Headspace </Link>
                 </div>
                 <div className="px-4 cursor-pointer md:hidden" onClick={props.toggle}>

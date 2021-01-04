@@ -1,13 +1,13 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import HomepageHeroGuest from '../components/HomepageHeroGuest'
+import LatestArticles from '../components/LatestArticles'
 
 const Home = () => {
     return (
         <div>
-            <Hero />
-            <div className='py-24'>
-
-            </div>
+            <HomepageHeroGuest />
+            <LatestArticles />
+            
         </div>
     )
 }
