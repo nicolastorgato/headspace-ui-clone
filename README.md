@@ -3,9 +3,11 @@
 I created a website clone of the famous meditation app, [Headspace](https://www.headspace.com/).
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
 ## Libraries & Tools:
 - [React JS](https://it.reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+
 
 ## Available Scripts
 
