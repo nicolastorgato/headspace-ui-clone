@@ -5,7 +5,7 @@ import DropdownMegamenu from './DropdownMegamenu';
 
 const Navbar = (props) => {
 
-    const [dropdown, setDropdown] = useState(true);
+    const [dropdown, setDropdown] = useState(false);
 
     const onMouseEnter = () => {
         if(window.innerWidth < 960){
@@ -25,7 +25,7 @@ const Navbar = (props) => {
 
 
     return (
-        <nav className='flex justify-between items-center h-20 bg-white text-black relative shadow-sm px-2 md:px-18 2xl:px-64' role='navigation'>
+        <nav className='flex justify-between items-center h-20 bg-white text-black relative shadow-sm px-4 md:px-8 xl:px-18 2xl:px-24' role='navigation'>
 
             <div className='flex items-center'>
 
@@ -42,18 +42,18 @@ const Navbar = (props) => {
                 
 
                 <div >
-                    <ul className="absolute ml-16 pr-8 lg:flex hidden text-gray-700">
-                        <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                    <ul className=" ml-16 pr-8 lg:flex hidden text-gray-700 h-20">
+                        <li className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                             <Link className="p-4" to='/'>Articles</Link>
                             {dropdown && <DropdownMegamenu />}
                         </li>
-                        <li>
+                        <li className='flex items-center'>
                             <Link className="p-4" to='/'>Meditation</Link>
                         </li>
-                        <li>
+                        <li className='flex items-center'>
                             <Link className="p-4" to='/'>Sleep</Link>
                         </li>
-                        <li>
+                        <li className='flex items-center'>
                             <Link className="p-4" to='/'>Stress</Link>
                         </li>
                     </ul>

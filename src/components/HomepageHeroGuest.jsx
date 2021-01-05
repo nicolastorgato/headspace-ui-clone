@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const HomepageHeroGuest = () => {
     return (
         <div className='2xl:bg-hero-bg1 2xl:bg-cover pb-16 2xl:pb-64'>
-            <div className="py-4 2xl:py-32 flex flex-col justify-center items-start mx-20 xl:mx-48 2xl:mx-96">
+            <div className="py-4 2xl:py-20 flex flex-col justify-center items-start mx-20 xl:mx-48 2xl:mx-96">
 
                 <h1 className="lg:text-7xl md:text-5xl sm:text-4xl text-3xl font-bold text-gray-700 mb-14">
                     Be kind to your mind, <br/> it will be fine

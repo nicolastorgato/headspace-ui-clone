@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const LatestArticles = () => {
     return (
-        <div className='pb-64'>
-            <div className="py-10 2xl:py-32 flex flex-col justify-center items-start mx-8 md:mx-16 lg:mx-32 xl:mx-44 2xl:mx-96">
+        <div className='pb-18'>
+            <div className="py-10 2xl:pb-32 flex flex-col justify-center items-start mx-8 md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-48">
 
                 <h1 className="self-end text-3xl xl:text-5xl font-bold text-gray-700 mb-14">
                     Latest Articles
@@ -37,7 +37,7 @@ const LatestArticles = () => {
                     <a className='col-span-2 xl:col-span-1' href="https://www.headspace.com/articles/election-anxiety">
                         <div class="bg-walking-meditation bg-cover h-56 rounded-xl">
                             <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                                <div class="bg-yellow-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Meditation
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
@@ -58,7 +58,7 @@ const LatestArticles = () => {
                     <a className='col-span-2 xl:col-span-1' href="https://www.headspace.com/articles/election-anxiety">
                         <div class="bg-always-tired bg-cover bg-top h-56 rounded-xl">
                             <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                                <div class=" bg-purple-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Sleep
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
@@ -79,7 +79,7 @@ const LatestArticles = () => {
                     <a className='col-span-2 xl:col-span-1' href="https://www.headspace.com/articles/election-anxiety">
                         <div class="bg-home-office bg-cover bg-center h-56 rounded-xl">
                             <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                                <div class="bg-green-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Work
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
@@ -121,7 +121,7 @@ const LatestArticles = () => {
                     <a className='col-span-2' href="https://www.headspace.com/articles/election-anxiety">
                         <div class="bg-power-napping bg-cover bg-bottom h-56 rounded-xl">
                             <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                                <div class="bg-purple-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Sleep
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
