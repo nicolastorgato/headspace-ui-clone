@@ -12,6 +12,12 @@ module.exports = {
          'home-office': "url('/src/images/latest-articles/How-to-create-a-mindful-home-office.svg')",
          'mindful-eating': "url('/src/images/latest-articles/What-is-mindful-eating.svg')",
          'power-napping': "url('/src/images/latest-articles/Power-napping-101.svg')",
+         'menu-article-1': "url('/src/images/menu-articles/article-1.svg')",
+         'menu-article-2': "url('/src/images/menu-articles/article-2.svg')",
+         'menu-article-3': "url('/src/images/menu-articles/article-3.png')",
+         'menu-article-4': "url('/src/images/menu-articles/article-4.svg')",
+         'menu-article-5': "url('/src/images/menu-articles/article-5.svg')",
+         'menu-article-6': "url('/src/images/menu-articles/article-6.png')",
         }),
 
       fontFamily: {

@@ -3,12 +3,13 @@ import {Link} from 'react-router-dom';
 import headspaceLogo from '../images/headspace-logo.jpg';
 import DropdownMegamenu from './DropdownMegamenu';
 
+
 const Navbar = (props) => {
 
     const [dropdown, setDropdown] = useState(false);
 
     const onMouseEnter = () => {
-        if(window.innerWidth < 960){
+        if(window.innerWidth < 1250){
             setDropdown(false);
         } else{
             setDropdown(true);
@@ -16,7 +17,7 @@ const Navbar = (props) => {
     }
 
     const onMouseLeave = () => {
-        if(window.innerWidth < 960){
+        if(window.innerWidth < 1250){
             setDropdown(false);
         } else{
             setDropdown(false);
@@ -44,35 +45,30 @@ const Navbar = (props) => {
                 <div >
                     <ul className=" ml-16 pr-8 lg:flex hidden text-gray-700 h-20">
                         <li className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                            <Link className="p-4" to='/'>Articles</Link>
+                            <Link className="p-4 hover:text-orange" to='/'>Articles</Link>
                             {dropdown && <DropdownMegamenu />}
                         </li>
                         <li className='flex items-center'>
-                            <Link className="p-4" to='/'>Meditation</Link>
+                            <Link className="p-4 hover:text-orange" to='/'>Meditation</Link>
                         </li>
                         <li className='flex items-center'>
-                            <Link className="p-4" to='/'>Sleep</Link>
+                            <Link className="p-4 hover:text-orange" to='/'>Sleep</Link>
                         </li>
                         <li className='flex items-center'>
-                            <Link className="p-4" to='/'>Stress</Link>
+                            <Link className="p-4 hover:text-orange" to='/'>Stress</Link>
                         </li>
                     </ul>
                     
-{/* 
-                    <Link className="p-4" to='/'>Meditation</Link>
-                    <Link className="p-4" to='/'>Sleep</Link>
-                    <Link className="p-4" to='/'>Stress</Link>
-                    <Link className="p-4" to='/'>Mindfulness</Link> */}
                 </div>
             </div>
 
 
             <div className='flex items-center'>
                 <div className="pr-8 md:block hidden text-gray-700">
-                    <Link className="p-4" to='/'>About</Link>
-                    <Link className="p-4" to='/menu'>Work</Link>
-                    <Link className="p-4" to='/about'>Help</Link>
-                    <Link className="p-4" to='/contact'>Login</Link>
+                    <Link className="p-4 hover:text-orange" to='/'>About</Link>
+                    <Link className="p-4 hover:text-orange" to='/menu'>Work</Link>
+                    <Link className="p-4 hover:text-orange" to='/about'>Help</Link>
+                    <Link className="p-4 hover:text-orange" to='/contact'>Login</Link>
                 </div>
 
                 <button className='hidden xl:block bg-blue-500 px-4 py-3 rounded-full text-white font-bold tracking-normal'>Try for free</button>
