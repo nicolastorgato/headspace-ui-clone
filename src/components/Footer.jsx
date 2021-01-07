@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Select from 'react-select'
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
-import {TiWorld} from 'react-icons/ti/';
+// import {TiWorld} from 'react-icons/ti/';
 
 const Footer = () => {
 

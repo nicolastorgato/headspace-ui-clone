@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import headspaceLogo from '../images/headspace-logo.jpg';
+import Button from './Button';
 import DropdownMegamenu from './DropdownMegamenu';
 
 
@@ -71,7 +72,7 @@ const Navbar = (props) => {
                     <Link className="p-4 hover:text-orange" to='/contact'>Login</Link>
                 </div>
 
-                <button className='hidden xl:block bg-blue-500 px-4 py-3 rounded-full text-white font-bold tracking-normal'>Try for free</button>
+                <Button text='Try for free' color='blue' hiddenOnSmallScreen='true' pX='4' pY='3' mX='0' mY='0' />
             </div>
 
             

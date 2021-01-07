@@ -26,6 +26,10 @@ module.exports = {
 
       colors: {
         'orange': '#ff7e1d'
+      },
+
+      scale: {
+       '102': '1.02',
       }
 
     },
