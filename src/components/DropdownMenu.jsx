@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Dropdown = ({isOpen, toggle}) => {
+const DropdownMenu = ({isOpen, toggle}) => {
     return (
         <div className={isOpen ? 'grid grid-rows-1 text-center items-center bg-white' : 'hidden'} >
             <div className='flex justify-around mb-3'>
@@ -26,4 +26,4 @@ const Dropdown = ({isOpen, toggle}) => {
     )
 }
 
-export default Dropdown
+export default DropdownMenu

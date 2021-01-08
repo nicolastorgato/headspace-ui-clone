@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/index.jsx";
 import About from "./pages/about.jsx";
 import Menu from "./pages/menu.jsx";
-import Dropdown from "./components/Dropdown";
+import DropdownMenu from "./components/DropdownMenu";
 import Banner from "./components/Banner";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
       <Banner />
       
       <Navbar toggle={toggle}/>
-      <Dropdown isOpen={isOpen} toggle={toggle}/>
+      <DropdownMenu isOpen={isOpen} toggle={toggle}/>
 
       <Switch>
         <Route path='/' exact component={Home} />

@@ -18,6 +18,17 @@ module.exports = {
          'menu-article-4': "url('/src/images/menu-articles/article-4.svg')",
          'menu-article-5': "url('/src/images/menu-articles/article-5.svg')",
          'menu-article-6': "url('/src/images/menu-articles/article-6.png')",
+         'meditationForX_BASIC': "url('/src/images/meditationForX/MeditationForX_BASIC.jpg')",
+         'meditationForX_1': "url('/src/images/meditationForX/meditation/meditationForX_1.png')",
+         'meditationForX_2': "url('/src/images/meditationForX/meditation/meditationForX_2.jpg')",
+         'meditationForX_3': "url('/src/images/meditationForX/meditation/meditationForX_3.jpg')",
+         'meditationForX_4': "url('/src/images/meditationForX/meditation/meditationForX_4.jpg')",
+         'meditationForX_5': "url('/src/images/meditationForX/meditation/meditationForX_5.jpg')",
+         'meditationForX_6': "url('/src/images/meditationForX/mindfulness/meditationForX_6.png')",
+         'meditationForX_7': "url('/src/images/meditationForX/mindfulness/meditationForX_7.jpg')",
+         'meditationForX_8': "url('/src/images/meditationForX/mindfulness/meditationForX_8.jpg')",
+         'meditationForX_9': "url('/src/images/meditationForX/mindfulness/meditationForX_9.jpeg')",
+         'meditationForX_10': "url('/src/images/meditationForX/mindfulness/meditationForX_10.jpg')",
         }),
 
       fontFamily: {

@@ -5,23 +5,23 @@ import Button from './Button'
 const LatestArticles = () => {
     return (
         <div>
-            <div className="py-20 2xl:pb-12 flex flex-col justify-center items-start mx-8 md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-48">
+            <div className="py-20 2xl:pb-12 flex flex-col justify-center items-start mx-8 md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-80">
 
                 <h1 className="self-end text-3xl xl:text-6xl font-bold text-gray-700 mb-14">
                     Latest Articles
                 </h1>
                 
                 {/* grid start- latest articles */}
-                <div class="w-full grid lg:grid-cols-4 grid-cols-1 gap-4">
+                <div className="w-full grid lg:grid-cols-4 grid-cols-1 gap-4">
 
                     <a className='col-span-2 transition duration-500 ease-in-out transform hover:scale-102' href="https://www.headspace.com/articles/election-anxiety">
-                        <div class="bg-election-anxiety bg-cover bg-top h-56 rounded-xl">
-                            <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                        <div className="bg-election-anxiety bg-cover bg-top h-56 rounded-xl">
+                            <div className="h-full flex flex-col justify-between items-start">
+                                <div className="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Mindfulness
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
-                                    <p class="pb-2 text-base text-gray-700">
+                                    <p className="pb-2 text-base text-gray-700">
                                         Election anxiety
                                     </p>
                                     <svg className='h-6 bg-blue-700 rounded-full px-1 py-1 ' xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white">
@@ -36,13 +36,13 @@ const LatestArticles = () => {
 
 
                     <a className='col-span-2 xl:col-span-1 transition duration-500 ease-in-out transform hover:scale-102' href="https://www.headspace.com/articles/election-anxiety">
-                        <div class="bg-walking-meditation bg-cover h-56 rounded-xl">
-                            <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-yellow-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                        <div className="bg-walking-meditation bg-cover h-56 rounded-xl">
+                            <div className="h-full flex flex-col justify-between items-start">
+                                <div className="bg-yellow-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Meditation
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
-                                    <p class="pb-2 text-base text-gray-700">
+                                    <p className="pb-2 text-base text-gray-700">
                                         Walking meditation
                                     </p>
                                     <svg className='h-6 bg-blue-700 rounded-full px-1 py-1 ' xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white">
@@ -57,13 +57,13 @@ const LatestArticles = () => {
 
 
                     <a className='col-span-2 xl:col-span-1 transition duration-500 ease-in-out transform hover:scale-102' href="https://www.headspace.com/articles/election-anxiety">
-                        <div class="bg-always-tired bg-cover bg-top h-56 rounded-xl">
-                            <div class="h-full flex flex-col justify-between items-start">
-                                <div class=" bg-purple-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                        <div className="bg-always-tired bg-cover bg-top h-56 rounded-xl">
+                            <div className="h-full flex flex-col justify-between items-start">
+                                <div className=" bg-purple-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Sleep
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
-                                    <p class="pb-2 text-base text-gray-700">
+                                    <p className="pb-2 text-base text-gray-700">
                                         Why am I always tired?
                                     </p>
                                     <svg className='h-6 bg-blue-700 rounded-full px-1 py-1 ' xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white">
@@ -78,13 +78,13 @@ const LatestArticles = () => {
 
 
                     <a className='col-span-2 xl:col-span-1 transition duration-500 ease-in-out transform hover:scale-102' href="https://www.headspace.com/articles/election-anxiety">
-                        <div class="bg-home-office bg-cover bg-center h-56 rounded-xl">
-                            <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-green-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                        <div className="bg-home-office bg-cover bg-center h-56 rounded-xl">
+                            <div className="h-full flex flex-col justify-between items-start">
+                                <div className="bg-green-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Work
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
-                                    <p class="pb-2 text-base text-gray-700">
+                                    <p className="pb-2 text-base text-gray-700">
                                         How to create a mindful office
                                     </p>
                                     <svg className='h-6 bg-blue-700 rounded-full px-1 py-1 ' xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white">
@@ -99,13 +99,13 @@ const LatestArticles = () => {
 
 
                     <a className='col-span-2 xl:col-span-1 transition duration-500 ease-in-out transform hover:scale-102' href="https://www.headspace.com/articles/election-anxiety">
-                        <div class="bg-mindful-eating bg-cover bg-center h-56 rounded-xl">
-                            <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                        <div className="bg-mindful-eating bg-cover bg-center h-56 rounded-xl">
+                            <div className="h-full flex flex-col justify-between items-start">
+                                <div className="bg-blue-700 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Mindfulness
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
-                                    <p class="pb-2 text-base text-gray-700">
+                                    <p className="pb-2 text-base text-gray-700">
                                         What is mindful eating?
                                     </p>
                                     <svg className='h-6 bg-blue-700 rounded-full px-1 py-1 ' xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white">
@@ -120,13 +120,13 @@ const LatestArticles = () => {
 
 
                     <a className='col-span-2 transition duration-500 ease-in-out transform hover:scale-102' href="https://www.headspace.com/articles/election-anxiety">
-                        <div class="bg-power-napping bg-cover bg-bottom h-56 rounded-xl">
-                            <div class="h-full flex flex-col justify-between items-start">
-                                <div class="bg-purple-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
+                        <div className="bg-power-napping bg-cover bg-bottom h-56 rounded-xl">
+                            <div className="h-full flex flex-col justify-between items-start">
+                                <div className="bg-purple-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
                                     Sleep
                                 </div>
                                 <div className='bg-gray-100 px-3 py-2 ml-3 mb-3 rounded-xl w-3/4'>
-                                    <p class="pb-2 text-base text-gray-700">
+                                    <p className="pb-2 text-base text-gray-700">
                                         Power napping 101
                                     </p>
                                     <svg className='h-6 bg-blue-700 rounded-full px-1 py-1 ' xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="white">

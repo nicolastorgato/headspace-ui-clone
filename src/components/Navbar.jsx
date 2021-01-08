@@ -3,24 +3,27 @@ import {Link} from 'react-router-dom';
 import headspaceLogo from '../images/headspace-logo.jpg';
 import Button from './Button';
 import DropdownMegamenu from './DropdownMegamenu';
+import {megamenuData} from '../data/dropdownMegamenu.js';
 
 
 const Navbar = (props) => {
 
     const [dropdown, setDropdown] = useState(false);
 
-    const onMouseEnter = () => {
+
+    const onMouseEnter = (e) => {
         if(window.innerWidth < 1250){
             setDropdown(false);
-        } else{
-            setDropdown(true);
+        } else {
+            setDropdown(true);  
         }
     }
 
-    const onMouseLeave = () => {
+    const onMouseLeave = (e) => {
         if(window.innerWidth < 1250){
             setDropdown(false);
-        } else{
+        } 
+        else {     
             setDropdown(false);
         }
     }
@@ -45,19 +48,22 @@ const Navbar = (props) => {
 
                 <div >
                     <ul className=" ml-16 pr-8 lg:flex hidden text-gray-700 h-20">
+                        <li id='articles' className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                            <Link className="p-4 hover:text-orange" to='/' >Articles</Link>
+                            {dropdown && <DropdownMegamenu data={megamenuData.articles}/>}
+                        </li>
+                        {/* <li id='meditation' className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                            <Link className="p-4 hover:text-orange" to='/' >Meditation </Link>
+                            {dropdown && <DropdownMegamenu data={megamenuData.meditation}/>}
+                        </li>
                         <li className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                            <Link className="p-4 hover:text-orange" to='/'>Articles</Link>
-                            {dropdown && <DropdownMegamenu />}
-                        </li>
-                        <li className='flex items-center'>
-                            <Link className="p-4 hover:text-orange" to='/'>Meditation</Link>
-                        </li>
-                        <li className='flex items-center'>
                             <Link className="p-4 hover:text-orange" to='/'>Sleep</Link>
+                            {dropdown && <DropdownMegamenu data={megamenuData.sleep}/>}
                         </li>
-                        <li className='flex items-center'>
+                        <li className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                             <Link className="p-4 hover:text-orange" to='/'>Stress</Link>
-                        </li>
+                            {dropdown && <DropdownMegamenu data={megamenuData.stress}/>}
+                        </li> */}
                     </ul>
                     
                 </div>
