@@ -52,18 +52,18 @@ const Navbar = (props) => {
                             <Link className="p-4 hover:text-orange" to='/' >Articles</Link>
                             {dropdown && <DropdownMegamenu data={megamenuData.articles}/>}
                         </li>
-                        {/* <li id='meditation' className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                        <li id='meditation' className='flex items-center'>
                             <Link className="p-4 hover:text-orange" to='/' >Meditation </Link>
-                            {dropdown && <DropdownMegamenu data={megamenuData.meditation}/>}
+                            
                         </li>
-                        <li className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                        <li className='flex items-center'>
                             <Link className="p-4 hover:text-orange" to='/'>Sleep</Link>
-                            {dropdown && <DropdownMegamenu data={megamenuData.sleep}/>}
+                            
                         </li>
-                        <li className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                        <li className='flex items-center'>
                             <Link className="p-4 hover:text-orange" to='/'>Stress</Link>
-                            {dropdown && <DropdownMegamenu data={megamenuData.stress}/>}
-                        </li> */}
+                            
+                        </li>
                     </ul>
                     
                 </div>

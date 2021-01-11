@@ -4,14 +4,14 @@ import Button from './Button'
 
 const HomepageHeroGuest = () => {
     return (
-        <div className=' xl:mb-20 2xl:bg-hero-bg1 2xl:bg-cover pb-16 2xl:pb-80'>
-            <div className="py-4 2xl:py-20 flex flex-col justify-center items-start mx-20 xl:mx-48 2xl:mx-96">
+        <div className='mb-10 xl:mb-20 2xl:bg-hero-bg1 2xl:bg-cover 2xl:pb-80 2xl:pt-8'>
+            <div className="py-8 sm:pt-20 2xl:py-20 flex flex-col justify-center items-start mx-20 xl:mx-48 2xl:mx-96">
 
-                <h1 className="lg:text-7xl md:text-5xl sm:text-4xl text-3xl font-bold text-gray-700 mb-14">
-                    Be kind to your mind, <br/> it will be fine
+                <h1 className="lg:text-7xl md:text-5xl sm:text-4xl text-4xl font-bold text-gray-700 mb-8 lg:mb-14">
+                    Be kind to your mind, <br /> it will be fine
                 </h1>
                 <p className='mb-8 font-medium text-xl xl:text-2xl text-gray-500'>Less stressed. More resilient. Happier. <br/> It all starts with just a few minutes a day.</p>
-                <Button text='Start your journey' color='blue' hiddenOnSmallScreen='false' pX='5' pY='4' mX='0' mY='0'/>
+                <Button text='Start your journey' color='blue' pX='5' pY='4' mX='0' mY='0'/>
                 <div className='mt-8 text-gray-600 flex items-center'> 
                     <a href='www.google.it ' className=' mr-2 flex items-center'>
                         <svg className='w-10 h-10 mr-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="orange">
