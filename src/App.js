@@ -3,14 +3,15 @@ import Footer from "./components/Footer";
 import React, {useState, useEffect} from 'react';
 import Navbar from "./components/Navbar";
 import Home from "./pages/index.jsx";
-import About from "./pages/about.jsx";
-import Menu from "./pages/menu.jsx";
+// import About from "./pages/about.jsx";
+// import Menu from "./pages/menu.jsx";
 import DropdownMenu from "./components/DropdownMenu";
 import Banner from "./components/Banner";
 
 function App() {
 
   const [isOpen, setIsOpen] = useState(false);
+  // const [theme, setTheme] = useState('dark');
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -30,8 +31,14 @@ function App() {
     }
   })
 
+  // useEffect(() => {
+  //   const root = window.document.documentElement;
+  //   root.classList.add(theme);
+  // }, [theme])
+
+
   return (
-    <>
+    <div className='transition duration-500'>
       <Banner />
       
       <Navbar toggle={toggle}/>
@@ -39,11 +46,11 @@ function App() {
 
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/menu' component={Menu} />
+        {/* <Route path='/about' component={About} />
+        <Route path='/menu' component={Menu} /> */}
       </Switch>
       <Footer />
-    </>
+    </div>
   );
 }
 

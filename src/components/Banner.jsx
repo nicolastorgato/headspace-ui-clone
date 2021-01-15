@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div className='flex justify-center items-center bg-banner-bg bg-cover bg-bottom h-14'>
 
-            <a href='https://www.headspace.com/netflix' className='text-white text-base' rel="noreferrer" target="_blank"> Get a first look at our new Netflix show </a>
+            <a href='https://www.headspace.com/netflix' className='text-white dark:text-black text-base' rel="noreferrer" target="_blank"> Get a first look at our new Netflix show </a>
         </div>
     )
 }
