@@ -11,7 +11,6 @@ import Banner from "./components/Banner";
 function App() {
 
   const [isOpen, setIsOpen] = useState(false);
-  // const [theme, setTheme] = useState('dark');
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -30,11 +29,6 @@ function App() {
       window.removeEventListener('resize', HideMenu);
     }
   })
-
-  // useEffect(() => {
-  //   const root = window.document.documentElement;
-  //   root.classList.add(theme);
-  // }, [theme])
 
 
   return (

@@ -40,16 +40,7 @@ export const megamenuData = {
             'How to calm down',
             'Mindful eating',
             'How to improve self-esteem',
-             'How to form a habit',
-            'What is mindfulness',
-            'How to calm down',
-            'Mindful eating',
-            'How to improve self-esteem',
-             'How to form a habit',
-            'What is mindfulness',
-            'How to calm down',
-            'Mindful eating',
-            'dio',
+
         ]
     },
 

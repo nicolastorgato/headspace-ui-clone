@@ -4,10 +4,10 @@ import Button from './Button'
 
 const LatestArticles = () => {
     return (
-        <div>
-            <div className="py-16 2xl:py-20 2xl:pb-12 flex flex-col justify-center items-start mx-8 md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-80">
+        <div className='bg-white dark:bg-black'>
+            <div className="py-16 2xl:py-20 2xl:pb-28 flex flex-col justify-center items-start mx-8 md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-80">
 
-                <h1 className="self-end text-3xl xl:text-5xl 2xl:text-6xl font-bold text-gray-700 mb-14">
+                <h1 className="self-end text-3xl xl:text-5xl 2xl:text-6xl font-bold text-gray-700 dark:text-gray-200 mb-8 xl:mb-14">
                     Latest Articles
                 </h1>
                 

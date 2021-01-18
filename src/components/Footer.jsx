@@ -14,7 +14,7 @@ const Footer = () => {
         ];
 
     return (
-        <div className='flex justify-between items-center h-24 bg-gray-600 text-gray-300 font-medium text-xs px-10 xl:px-16 2xl:px-64'>
+        <div className='flex justify-between items-center h-24 bg-gray-600 dark:bg-gray-900 text-gray-300 font-medium text-xs px-10 xl:px-16 2xl:px-64'>
 
             <div className='items-baseline flex-wrap md:flex hidden'>
                 <p className='p-4'>© 2021 Headspace Inc.</p>

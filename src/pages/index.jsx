@@ -6,11 +6,10 @@ import MeditationForX from '../components/MeditationForX'
 
 const Home = () => {
     return (
-        <div>
+        <div className='dark:bg-black'>
             <HomepageHeroGuest />
             <LatestArticles />
             <MeditationForX />
-            
         </div>
     )
 }
