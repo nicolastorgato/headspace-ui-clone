@@ -1,7 +1,8 @@
 # Headspace Website Clone
 
 I created a website clone of the famous meditation app, [Headspace](https://www.headspace.com/).
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br>
+It's a responsive website :iphone: and it includes [Dark Mode](https://tailwindcss.com/docs/dark-mode) :last_quarter_moon_with_face:.
 
 
 ## Libraries & Tools:
