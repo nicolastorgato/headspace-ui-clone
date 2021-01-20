@@ -8,6 +8,7 @@ import Home from "./pages/index.jsx";
 import DropdownMenu from "./components/DropdownMenu";
 import Banner from "./components/Banner";
 
+
 function App() {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,7 @@ function App() {
       window.removeEventListener('resize', HideMenu);
     }
   })
+
 
 
   return (

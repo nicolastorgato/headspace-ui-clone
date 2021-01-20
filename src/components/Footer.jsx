@@ -1,29 +1,32 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Select from 'react-select'
+import { useTranslation } from 'react-i18next';
+
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
 // import {TiWorld} from 'react-icons/ti/';
 
 const Footer = () => {
 
-    const options = [
-        { value: 'english', label: 'English' },
-        { value: 'italiano', label: 'Italiano' },
-        { value: 'espanol', label: 'Espanol' }
-        ];
+    const { t, i18n } = useTranslation();
+
+    function handleChange(event){
+        i18n.changeLanguage(event.target.value);
+    }
+
+
 
     return (
         <div className='flex justify-between items-center h-24 bg-gray-600 dark:bg-gray-900 text-gray-300 font-medium text-xs px-10 xl:px-16 2xl:px-64'>
 
             <div className='items-baseline flex-wrap md:flex hidden'>
-                <p className='p-4'>© 2021 Headspace Inc.</p>
-                <Link className="p-4" to='/'>Terms</Link>
-                <Link className="p-4" to='/'>Privacy Policy</Link>
-                <Link className="p-4" to='/'>Cookie policy</Link>
-                <Link className="p-4" to='/'>CCPA notice</Link>
-                <Link className="p-4" to='/'>Securety</Link>
-                <Link className="p-4" to='/'>Sitemap</Link>
+                <p className='p-4'>{t('Footer.List.Headspace')}</p>
+                <Link className="p-4" to='/'>{t('Footer.List.Terms')}</Link>
+                <Link className="p-4" to='/'>{t('Footer.List.PrivacyPolicy')}</Link>
+                <Link className="p-4" to='/'>{t('Footer.List.CookiePolicy')}</Link>
+                <Link className="p-4" to='/'>{t('Footer.List.CCPANotice')}</Link>
+                <Link className="p-4" to='/'>{t('Footer.List.Securety')}</Link>
+                <Link className="p-4" to='/'>{t('Footer.List.Sitemap')}</Link>
             </div>
 
 
@@ -47,12 +50,16 @@ const Footer = () => {
                 
             </div>
 
-            {/* <button className='text-white px-4 py-2 rounded-full border-white border-2 text-base font-medium flex items-center'>
-                 <TiWorld className='mr-2 mt-1' /> Language 
-            </button> */}
 
-            <Select className=' w-44' menuPlacement='top' options={options} />
-
+                <select onChange={handleChange}
+                    className="outline-none appearance-none py-2 px-3 text-white bg-gray-600 border-white border-2 text-base rounded-full">
+                    <option value='en' > 
+                        {t('Footer.SelectLanguage.en')} 
+                    </option>
+                    <option value='it' >
+                        {t('Footer.SelectLanguage.it')} 
+                    </option>
+                </select>
 
         </div>
     )
