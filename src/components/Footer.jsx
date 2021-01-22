@@ -32,19 +32,19 @@ const Footer = () => {
 
 
             <div className='flex items-center'>
-                <a className='p-2 mr-4 text-gray-600 bg-white rounded-full' href="https://www.facebook.com/Headspace">
+                <a className='p-2 mr-4 text-gray-600 hover:text-gray-700 bg-white rounded-full' href="https://www.facebook.com/Headspace">
                     <FaFacebookF /> 
                 </a>
-                <a className='p-2 mr-4 text-gray-600 bg-white rounded-full' href="https://www.instagram.com/headspace/">
+                <a className='p-2 mr-4 text-gray-600 hover:text-gray-700 bg-white rounded-full' href="https://www.instagram.com/headspace/">
                     <FaInstagram />
                 </a>
-                <a className='p-2 mr-4 text-gray-600 bg-white rounded-full' href="https://www.linkedin.com/company/headspace-meditation-limited/">
+                <a className='p-2 mr-4 text-gray-600 hover:text-gray-700 bg-white rounded-full' href="https://www.linkedin.com/company/headspace-meditation-limited/">
                     <FaLinkedinIn />
                 </a>
-                <a className='p-2 mr-4 text-gray-600 bg-white rounded-full' href="https://twitter.com/Headspace">
+                <a className='p-2 mr-4 text-gray-600 hover:text-gray-700 bg-white rounded-full' href="https://twitter.com/Headspace">
                     <FaTwitter />
                 </a>
-                <a className='p-2 mr-4 text-gray-600 bg-white rounded-full' href="https://www.youtube.com/user/Getsomeheadspace">
+                <a className='p-2 mr-4 text-gray-600 hover:text-gray-700 bg-white rounded-full' href="https://www.youtube.com/user/Getsomeheadspace">
                     <FaYoutube />
                 </a>
                 
@@ -52,7 +52,7 @@ const Footer = () => {
 
 
                 <select onChange={handleChange}
-                    className="outline-none appearance-none py-2 px-3 text-white bg-gray-600 border-white border-2 text-base rounded-full">
+                    className="outline-none appearance-none py-2 px-3 text-white bg-gray-600 border-white border-2 text-base rounded-full cursor-pointer">
                     <option value='en' > 
                         {t('Footer.SelectLanguage.en')} 
                     </option>
