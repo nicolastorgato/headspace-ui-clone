@@ -149,11 +149,10 @@ const LatestArticles = () => {
                 </div>
                 {/* end grid */}
 
+                <div className='w-full flex justify-center'>
+                    <Button href='https://www.headspace.com/articles' text={t('LatestArticles.Button')} color='blue' hiddenOnSmallScreen='false' pX='7' pY='4' mX='0' mY='12'/>
 
-                <Link to='/' className='self-center'>
-                    <Button text={t('LatestArticles.Button')} color='blue' hiddenOnSmallScreen='false' pX='7' pY='4' mX='0' mY='12'/>
-                </Link>
-
+                </div>
 
             </div>
         </div>

@@ -21,12 +21,12 @@ const Footer = () => {
 
             <div className='items-baseline flex-wrap md:flex hidden'>
                 <p className='p-4'>{t('Footer.List.Headspace')}</p>
-                <Link className="p-4" to='/'>{t('Footer.List.Terms')}</Link>
-                <Link className="p-4" to='/'>{t('Footer.List.PrivacyPolicy')}</Link>
-                <Link className="p-4" to='/'>{t('Footer.List.CookiePolicy')}</Link>
-                <Link className="p-4" to='/'>{t('Footer.List.CCPANotice')}</Link>
-                <Link className="p-4" to='/'>{t('Footer.List.Securety')}</Link>
-                <Link className="p-4" to='/'>{t('Footer.List.Sitemap')}</Link>
+                <Link className="p-4 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.Terms')}</Link>
+                <Link className="p-4 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.PrivacyPolicy')}</Link>
+                <Link className="p-4 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.CookiePolicy')}</Link>
+                <Link className="p-4 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.CCPANotice')}</Link>
+                <Link className="p-4 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.Securety')}</Link>
+                <Link className="p-4 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.Sitemap')}</Link>
             </div>
 
 
