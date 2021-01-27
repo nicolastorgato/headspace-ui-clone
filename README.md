@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Responsiveness :iphone:
 - [Dark Mode](https://tailwindcss.com/docs/dark-mode) :last_quarter_moon_with_face:
 - [Multi language](https://github.com/i18next/react-i18next) (English :us: & Italian :it:)
+- Custom 404 Page :four::zero::four:
 
 
 ## Libraries & Tools:
