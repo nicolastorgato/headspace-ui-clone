@@ -1,7 +1,7 @@
 {
   "name": "headspace-clone",
   "version": "0.1.0",
-  "homepage": "https://github.com/nicolastorgato/headspace-ui-clone",
+  "homepage": "https://nicolastorgato.github.io/headspace-ui-clone/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.0.0",
