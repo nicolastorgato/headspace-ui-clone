@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nicolastorgato/headspace-ui-clone/static/css/main.144ba5d4.chunk.css",
+    "main.js": "/nicolastorgato/headspace-ui-clone/static/js/main.65c3a5fa.chunk.js",
+    "main.js.map": "/nicolastorgato/headspace-ui-clone/static/js/main.65c3a5fa.chunk.js.map",
+    "runtime-main.js": "/nicolastorgato/headspace-ui-clone/static/js/runtime-main.be55d247.js",
+    "runtime-main.js.map": "/nicolastorgato/headspace-ui-clone/static/js/runtime-main.be55d247.js.map",
+    "static/js/2.7211fb10.chunk.js": "/nicolastorgato/headspace-ui-clone/static/js/2.7211fb10.chunk.js",
+    "static/js/2.7211fb10.chunk.js.map": "/nicolastorgato/headspace-ui-clone/static/js/2.7211fb10.chunk.js.map",
+    "index.html": "/nicolastorgato/headspace-ui-clone/index.html",
+    "static/css/main.144ba5d4.chunk.css.map": "/nicolastorgato/headspace-ui-clone/static/css/main.144ba5d4.chunk.css.map",
+    "static/js/2.7211fb10.chunk.js.LICENSE.txt": "/nicolastorgato/headspace-ui-clone/static/js/2.7211fb10.chunk.js.LICENSE.txt",
+    "static/media/404-image.8b525c56.png": "/nicolastorgato/headspace-ui-clone/static/media/404-image.8b525c56.png",
+    "static/media/index.css": "/nicolastorgato/headspace-ui-clone/static/media/banner-bg.6ac31922.jpg",
+    "static/media/getFetch.cjs": "/nicolastorgato/headspace-ui-clone/static/media/getFetch.d7d6010d.cjs",
+    "static/media/headspace_dot.56d56aec.png": "/nicolastorgato/headspace-ui-clone/static/media/headspace_dot.56d56aec.png",
+    "static/media/undraw_mindfulness_scgo.b7b3c1cd.svg": "/nicolastorgato/headspace-ui-clone/static/media/undraw_mindfulness_scgo.b7b3c1cd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be55d247.js",
+    "static/js/2.7211fb10.chunk.js",
+    "static/css/main.144ba5d4.chunk.css",
+    "static/js/main.65c3a5fa.chunk.js"
+  ]
+}

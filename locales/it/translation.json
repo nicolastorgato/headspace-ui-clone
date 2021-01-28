@@ -1,0 +1,178 @@
+{
+
+    "Banner": {
+        "Title": "Dai un'occhiata alla nostra nuova serie su Netflix"
+    },
+
+    "Navbar": {
+        "Articles": "Articoli",
+        "Meditation": "Meditazione",
+        "Sleep": "Sonno",
+        "Stress": "Stress",
+        "About": "Su di noi",
+        "Work": "Lavoro",
+        "Help": "Aiuto",
+        "Login": "Login",
+        "Button": "Prova gratis"
+    },
+
+    "Megamenu": {
+        "1": {
+            "Title": "Articoli",
+            "Subtitle": "Esplora tutti gli articoli di tutti gli argomenti",
+            "Link": "Vedi tutti"
+        },
+        "2": {
+            "Title": "Migliori articoli",
+            "Cards": [
+                {
+                    "title": "Come essere più empatici",
+                    "bgPath": "menu-article-1"
+                },
+                {
+                    "title": "Come essere più riconoscenti",
+                    "bgPath": "menu-article-2"
+                },
+                {
+                    "title": "Come essere più presenti",
+                    "bgPath": "menu-article-3"
+                },
+                {
+                    "title": "Cosa succede quando qualcuno non ci piace",
+                    "bgPath": "menu-article-4"
+                },
+                {
+                    "title": "Come rilassarsi",
+                    "bgPath": "menu-article-5"
+                },
+                {
+                    "title": "Come essere se stessi",
+                    "bgPath": "menu-article-6"
+                }
+            ]
+        },
+        "3": {
+            "Title": "In tendenza",
+            "Links": [
+                "Come formare un'abitudine",
+                "Cos'è la mindfulness",
+                "Come stare calmi",
+                "Alimentazione coscente",
+                "Come migliorare la la propria stima"
+            ]
+        }
+    },
+
+    "HeroGuest": {
+        "Title": "Sii gentile con la tua mente, andrà tutto bene",
+        "Subtitle": "Meno stressato. Più resiliente. Più felice. Inizia tutto con soli pochi minuti al giorno.",
+        "Button": "Inizia il tuo percorso",
+        "Link": "Scopri come funziona"
+    },
+
+    "LatestArticles": {
+        "Title": "Articoli più recenti",
+        "Cards": {
+            "1": {
+                "Title": "Ansia da elezioni",
+                "Tag": "Mindfulness"
+            },
+            "2": {
+                "Title": "Meditazione camminando",
+                "Tag": "Meditazione"
+            },
+            "3": {
+                "Title": "Perchè sono sempre stanco?",
+                "Tag": "Sonno"
+            },
+            "4": {
+                "Title": "Come creare un ufficio coscente",
+                "Tag": "Lavoro"
+            },
+            "5": {
+                "Title": "Cos'è l'alimentazione cosciente",
+                "Tag": "Mindfulness"
+            },
+            "6": {
+                "Title": "Sonnellino rigenerante",
+                "Tag": "Sonno"
+            }
+        },
+        "Button": "Vedi tutti gli articoli"
+    },
+
+    "MeditationForX": {
+        "Title": "Meditazione e mindfulness per ogni mente, ogni umore, ogni obiettivo",
+        "Lists": {
+
+            "1": {
+                "Title": "Meditazione",
+                "Links": {
+                    "1": "Cos'è la meditazione",
+                    "2": "Meditazione per principianti",
+                    "3": "I benefici della meditazione",
+                    "4": "Meditazione guidata",
+                    "5": "Tecniche di meditazione"
+
+                },
+                "SeeMore": "Vedi di più"
+            },
+
+            "2": {
+                "Title": "Sonno",
+                "Links": {
+                    "1": "Come dormire meglio",
+                    "2": "Meditazione per dormire",
+                    "3": "Come addormentarsi",
+                    "4": "Come svegliarsi",
+                    "5": "Trucchi per dormire"
+
+                },
+                "SeeMore": "Vedi di più"
+            },
+
+            "3": {
+                "Title": "Stress",
+                "Links": {
+                    "1": "Meditazione per l'ansia",
+                    "2": "Come alleviare lo stress",
+                    "3": "Meditazione per lo stress",
+                    "4": "Come rilassarsi",
+                    "5": "Come ridurre l'ansia"
+
+                },
+                "SeeMore": "Vedi di più"
+            },
+
+            "4": {
+                    "Title": "Mindfulness",
+                    "Links": {
+                        "1": "Come smettere di preoccuparsi",
+                        "2": "Come formare un'abitudine",
+                        "3": "Come essere più riconoscenti",
+                        "4": "Come essere più presenti",
+                        "5": "Come migliorare la propria stima"
+
+                    },
+                    "SeeMore": "Vedi di più"
+            }
+        }
+    },
+
+    "Footer": {
+        "List": {
+            "Headspace": "© 2021 Headspace Inc.",
+            "Terms": "Termini",
+            "PrivacyPolicy": "Politica di privacy",
+            "CookiePolicy": "Politica sui cookies",
+            "CCPANotice": "Avviso CCPA",
+            "Securety": "Sicurezza",
+            "Sitemap": "Sitemap"
+        },
+        "SelectLanguage": {
+            "en": "Inglese",
+            "it": "Italiano"
+        }
+    }
+
+}

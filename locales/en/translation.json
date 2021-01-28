@@ -1,0 +1,178 @@
+{
+
+    "Banner": {
+        "Title": "Get a first look at our new Netflix show"
+    },
+
+    "Navbar": {
+        "Articles": "Articles",
+        "Meditation": "Meditation",
+        "Sleep": "Sleep",
+        "Stress": "Stress",
+        "About": "About",
+        "Work": "Work",
+        "Help": "Help",
+        "Login": "Login",
+        "Button": "Try for free"
+    },
+
+    "Megamenu": {
+        "1": {
+            "Title": "Articles",
+            "Subtitle": "Explore all articles on every topic",
+            "Link": "View All"
+        },
+        "2": {
+            "Title": "Top Articles",
+            "Cards": [
+                {
+                    "title": "How to be more empatethic",
+                    "bgPath": "menu-article-1"
+                },
+                {
+                    "title": "How to be more grateful",
+                    "bgPath": "menu-article-2"
+                },
+                {
+                    "title": "How to be more present",
+                    "bgPath": "menu-article-3"
+                },
+                {
+                    "title": "What happens when we dislike someone",
+                    "bgPath": "menu-article-4"
+                },
+                {
+                    "title": "How to relax",
+                    "bgPath": "menu-article-5"
+                },
+                {
+                    "title": "How to be yourself",
+                    "bgPath": "menu-article-6"
+                }
+            ]
+        },
+        "3": {
+            "Title": "Trending",
+            "Links": [
+                "How to form a habit",
+                "What is mindfulness",
+                "How to calm down",
+                "Mindful eating",
+                "How to improve self-esteem"
+            ]
+        }
+    },
+
+    "HeroGuest": {
+        "Title": "Be kind to your mind, it will be fine",
+        "Subtitle": "Less stressed. More resilient. Happier. It all starts with just a few minutes a day.",
+        "Button": "Start your journey",
+        "Link": "See how it works"
+    },
+
+    "LatestArticles": {
+        "Title": "Latest Articles",
+        "Cards": {
+            "1": {
+                "Title": "Election anxiety",
+                "Tag": "Mindfulness"
+            },
+            "2": {
+                "Title": "Walking Meditation",
+                "Tag": "Meditation"
+            },
+            "3": {
+                "Title": "Why am I always tired?",
+                "Tag": "Sleep"
+            },
+            "4": {
+                "Title": "How to create a mindful office",
+                "Tag": "Work"
+            },
+            "5": {
+                "Title": "What is mindful eating",
+                "Tag": "Mindfulness"
+            },
+            "6": {
+                "Title": "Power napping",
+                "Tag": "Sleep"
+            }
+        },
+        "Button": "View all articles"
+    },
+
+    "MeditationForX": {
+        "Title": "Meditation and mindfulness for any mind, any mood, any goal",
+        "Lists": {
+
+            "1": {
+                "Title": "Meditation",
+                "Links": {
+                    "1": "What is meditation",
+                    "2": "Meditation for beginners",
+                    "3": "Benefits of meditation",
+                    "4": "Guided meditation",
+                    "5": "Meditation techniques"
+
+                },
+                "SeeMore": "See more"
+            },
+
+            "2": {
+                "Title": "Sleep",
+                "Links": {
+                    "1": "How to sleep better",
+                    "2": "Meditation for sleep",
+                    "3": "How to fall back asleep",
+                    "4": "How to wake up",
+                    "5": "Sleep hacks"
+
+                },
+                "SeeMore": "See more"
+            },
+
+            "3": {
+                "Title": "Stress",
+                "Links": {
+                    "1": "Meditation for anxiety",
+                    "2": "How to relieve stress",
+                    "3": "Meditation for stress",
+                    "4": "How to relax",
+                    "5": "How to reduce anxiety"
+
+                },
+                "SeeMore": "See more"
+            },
+
+            "4": {
+                    "Title": "Mindfulness",
+                    "Links": {
+                        "1": "How to stop worrying",
+                        "2": "How to form a habit",
+                        "3": "How to be more grateful",
+                        "4": "How to be more present",
+                        "5": "How to improve self-esteem"
+
+                    },
+                    "SeeMore": "See more"
+            }
+        }
+    },
+
+    "Footer": {
+        "List": {
+            "Headspace": "© 2021 Headspace Inc.",
+            "Terms": "Terms",
+            "PrivacyPolicy": "Privacy Policy",
+            "CookiePolicy": "Cookie Policy",
+            "CCPANotice": "CCPA Notice",
+            "Securety": "Securety",
+            "Sitemap": "Sitemap"
+        },
+        "SelectLanguage": {
+            "en": "English",
+            "it": "Italian"
+        }
+    }
+
+}
