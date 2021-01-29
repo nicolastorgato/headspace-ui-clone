@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/headspace-ui-clone/static/css/main.c8ad43a0.chunk.css",
-    "main.js": "/headspace-ui-clone/static/js/main.38183174.chunk.js",
-    "main.js.map": "/headspace-ui-clone/static/js/main.38183174.chunk.js.map",
+    "main.js": "/headspace-ui-clone/static/js/main.43f49d1f.chunk.js",
+    "main.js.map": "/headspace-ui-clone/static/js/main.43f49d1f.chunk.js.map",
     "runtime-main.js": "/headspace-ui-clone/static/js/runtime-main.f0802381.js",
     "runtime-main.js.map": "/headspace-ui-clone/static/js/runtime-main.f0802381.js.map",
-    "static/js/2.22cb89cf.chunk.js": "/headspace-ui-clone/static/js/2.22cb89cf.chunk.js",
-    "static/js/2.22cb89cf.chunk.js.map": "/headspace-ui-clone/static/js/2.22cb89cf.chunk.js.map",
+    "static/js/2.d6af2214.chunk.js": "/headspace-ui-clone/static/js/2.d6af2214.chunk.js",
+    "static/js/2.d6af2214.chunk.js.map": "/headspace-ui-clone/static/js/2.d6af2214.chunk.js.map",
     "index.html": "/headspace-ui-clone/index.html",
     "static/css/main.c8ad43a0.chunk.css.map": "/headspace-ui-clone/static/css/main.c8ad43a0.chunk.css.map",
-    "static/js/2.22cb89cf.chunk.js.LICENSE.txt": "/headspace-ui-clone/static/js/2.22cb89cf.chunk.js.LICENSE.txt",
+    "static/js/2.d6af2214.chunk.js.LICENSE.txt": "/headspace-ui-clone/static/js/2.d6af2214.chunk.js.LICENSE.txt",
     "static/media/404-image.8b525c56.png": "/headspace-ui-clone/static/media/404-image.8b525c56.png",
     "static/media/index.css": "/headspace-ui-clone/static/media/banner-bg.6ac31922.jpg",
     "static/media/getFetch.cjs": "/headspace-ui-clone/static/media/getFetch.d7d6010d.cjs",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f0802381.js",
-    "static/js/2.22cb89cf.chunk.js",
+    "static/js/2.d6af2214.chunk.js",
     "static/css/main.c8ad43a0.chunk.css",
-    "static/js/main.38183174.chunk.js"
+    "static/js/main.43f49d1f.chunk.js"
   ]
 }
